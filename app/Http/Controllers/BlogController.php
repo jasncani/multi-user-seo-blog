@@ -26,4 +26,11 @@ class BlogController extends Controller
     	Blog::create($input);
     	return back();
     }
+
+    public function show($id)
+    {
+      $blog = Blog::findOrFail($id);
+      return view('blog.show', compact('blog'));
+    }
+
 }
