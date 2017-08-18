@@ -2,7 +2,7 @@
 @section('content')
 
 <main class="container-fluid">
-	<div class="row">
+	<div class="contianer">
 		<div class="jumbotron">
 			<h1>Latest blog posts</h1>
 		</div>
